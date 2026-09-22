@@ -1,0 +1,33 @@
+git init 
+git status
+git add .
+git status
+git commit -m "Initial commit - ElectroMart"
+git status
+git remote add origin https://github.com/naitri20/ElectroMart.git
+git branch -M main
+git push -u origin main
+
+after change :
+git add .
+git commit -m "Fix product details page"
+git push
+git status
+
+for clone :
+git clone https://github.com/naitri20/ElectroMart.git
+dir
+cd ElectroMart
+code .
+create new file .env - ElectroMart
+			└── backend
+    				└── .env
+in terminal - cd backend
+npm install
+cd ..
+cd frontend
+npm install
+cd ../backend
+npm start
+cd frontend
+npm run dev
